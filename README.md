@@ -1,6 +1,7 @@
 ## Structure Overall
 
 ```
+tree --gitignore -L 5 -F --dirsfirst
 ./
 ├── public/
 ├── src/
@@ -27,6 +28,11 @@
 │   │   │   └── index.ts
 │   │   └── text-field/
 │   ├── modules/
+│   │   ├── app/
+│   │   │   ├── components/
+│   │   │   │   ├── AppHeader.stories.tsx
+│   │   │   │   └── AppHeader.tsx
+│   │   │   └── index.ts
 │   │   ├── project/
 │   │   │   ├── components/
 │   │   │   │   ├── ProjectEditDialog.stories.tsx
